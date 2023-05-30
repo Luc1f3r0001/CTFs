@@ -1,9 +1,11 @@
 # Pay To Win
 
 **The Challenge**
+
 This challenge had a login page. When we put a username into it it will laod a web page saying that you're not a premium user.
 
 **The Exploit**
+
 Here the page had two cookies, data and hash in which data was base64 encoded and had basically
 ```py
     data = {
