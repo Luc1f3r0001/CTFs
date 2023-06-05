@@ -32,4 +32,5 @@ Here it takes a value as theme parameter which will be openned by the site So th
 The file = /secret-flag-dir/flag.txt
 
 **Flag**
+
 Flag = tjctf{not_random_enough_64831eff}

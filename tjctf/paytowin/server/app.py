@@ -38,7 +38,7 @@ def index():
         return render_template('premium.jinja', theme_to_use=open(theme_name).read())
     else:
         return render_template('basic.jinja')
-
+ 
 
 @app.route('/login', methods=['GET'])
 def get_login():
